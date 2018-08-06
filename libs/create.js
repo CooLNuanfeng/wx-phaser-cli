@@ -57,7 +57,7 @@ function metalsmithFn(name,succ){
 
 module.exports = {
     init: function(proName){
-        tmp = path.join(process.cwd(),'temp');
+        tmp = path.join(process.cwd(),'.temp');
 
         if(proName){
             spinner = ora('creating, loading...').start();
